@@ -1,37 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale1.0">
     <link rel="stylesheet" href="styles.css" />
-    <title> Cara Cara </title>
+    <title>CARA CARA</title>
 </head>
 
 <body>
-    <nav>
-        <ul class="ul li">
-            <li><a id="home">HOME</a></li>
-            <li><a id="products">PRODUCTS</a></li>  
-            <li><a id="about">ABOUT</a></li>
-            <li><a id="products">PRODUCTS</a></li>  
-        </ul>
-    </nav>
-
-    <section>
-        <div class="home_page">
-            <img></img>
-            <h1></h1>
-            <h1></h1>    
+    <header>
+        <div class="flex-container justify-between border-bottom align-baseline">
+            <nav>
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#products">PRODUCTS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+            <div class="logo">CARA <img src="assets/icons8-pottery-96.png" alt="Pottery Icon"/> CARA</div>
+            <div><input type="search" /> CART (0)</div>
         </div>
-    <section>
+    </header>
+    <section id="home">
+        <div class="flex-container">
+            <img src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Making Pottery">
+            <!--text over image-->
+        </div>
+    </section>
+
+    <section id="about">
         <h1>ABOUT US</h1>
-
+        <div class="flex-container">
+            <div>PARAGRAPH</div>
+            <div class="flex-container">
+                <img src="assets/Vase_Dame_2048x2048.jpg" alt="Vase with Flower">
+                <p>Paragraph</p>
+                <p>Paragraph</p>
+            </div>
+            <div class="flex">
+                <img src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="White Cylinder Vase">
+            </div>
+        </div>
     </section>
 
+    <section id="products">
+        <h1>OUR PRODUCTS</h1>
+        <div class="flex-container justify-evenly justify-between product-card">
+            <div class="product-card img">
+                <img src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowl"/>
+                <h4>MUNDO BOWLS</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase"/>
+                <h4>NATUREZA VASE</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls"/>
+                <h4>FEIRA BOWLS</h4>          
+            </div>
+            <div class="product-card img">
+                <img src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots"/>
+                <h4>NATUREZA POTS</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase"/>
+                <h4>PEDRA VASE</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots"/>
+                <h4>VIAJA POTS</h4>
+            </div>
+            <div>
+                <img src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates"/>
+                <h4>SERVICO PLATES</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase"/>
+                <h4>CAMPEAO VASE</h4>
+            </div>
+            <div class="product-card img">
+                <img src="assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls"/>
+                <h4>TROCA BOWLS</h4>
+            </div>
+        </div>                  
     </section>
+    <section id="contact">
+        <h1>CONTACT US</h1>
+            <div class="flex-container">
+                <h3>EMAIL</h3>
+                <input type="email" name="" id="">
+                <h3>MESSAGE</h3>
+                <input type="text">
+                <input type="button" value="SEND">
+            </div>        
+    </section>
+
+    <footer>
+        <div class="flex-container">
+            <a href="youtubechannel">
+                <img src="assets/icons8-youtube-96.png" alt="YOUTUBE">
+            </a>
+            <a href="facebookpage">
+                <img src="assets/icons8-facebook-96 (1).png" alt="FACEBOOK">
+            </a>
+        </div>
+        <div class="logo"> CARA <img src="assets/icons8-pottery-96.png"> CARA </div>
         
-        
-    </body>
+    </footer>
+</body>
 </html>
